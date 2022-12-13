@@ -8,7 +8,7 @@
 **
 
 ## Deploying
-It has been deployed using [Heroku](https://...) 
+It has been deployed using [Heroku](https://project2library.herokuapp.com/) 
 
 ## Table of Contents
 * [Installation](#installation)
