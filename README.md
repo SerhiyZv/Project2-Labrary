@@ -72,4 +72,4 @@ SOFTWARE.
 
 ## Questions
 
-For any questions or to report issues, email us at: burakcersit1@gmail.com, jeff@gmail.com, Malek@gmail.com, Abel@gmail.com, Serhiy@gmail.com
+For any questions or to report issues, email us at: burakcersit1@gmail.com, bleachevil@gmail.com, Malek@gmail.com, Abel@gmail.com, Serhiy@gmail.com
