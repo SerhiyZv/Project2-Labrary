@@ -1,5 +1,6 @@
 const dashboard = async () => {
-    const response = await fetch('/user', {
+  const user_id = document.querySelector('#userId').value;
+    const response = await fetch(`/user/${id}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
     });

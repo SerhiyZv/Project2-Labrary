@@ -116,8 +116,6 @@ router.delete('/:id', async (req, res) => {
 
 
 
-
-
 // GET one user
 router.get('/user/:id', async (req, res) => {
   try {
