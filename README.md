@@ -29,8 +29,15 @@ It has been deployed using [Heroku](https://project2library.herokuapp.com/)
 6. Run 'node serves.js' in the terminal while in root directory of the cloned project.
 
 ## Screenshoot
-![1](./)
-![2](./)
+
+### Homepage
+![image](https://user-images.githubusercontent.com/16517540/207209276-273c7deb-b939-4ef9-9ca0-aaca03f13b3d.png)
+
+
+### Sign in / Sign Up
+
+![image](https://user-images.githubusercontent.com/16517540/207209462-1dd69d54-c768-41bc-b8d1-f1cd411fbfd2.png)
+
 
 
 ## License
