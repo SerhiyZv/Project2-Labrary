@@ -4,8 +4,7 @@
 
 
 ## Description
-*
-**
+The project developed mainly focuses on basic operations in a library like adding new member, new books, and updating new information, searching books and members and facility to issue and return books.
 
 ## Deploying
 It has been deployed using [Heroku](https://project2library.herokuapp.com/) 
