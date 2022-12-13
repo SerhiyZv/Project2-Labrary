@@ -1,0 +1,35 @@
+<!-- If the user is logged in, render the painting content -->
+{{#if loggedIn}}
+<section class="painting">
+  <img src="{{book.thumbnail}}" alt="{{description}}">
+  <p>{{book.description}}</p>
+  <div class="painting-details">
+    <h3>{{book.title}}</h3>
+    <p>By: {{book.authors}}</p>
+    <p>Publish Year: {{ book.published_year}}</p>
+  </div>
+
+  {{#if book.user_id}}
+
+   <p>User_Name: {{book.user.username}}</p>
+    <form class = "delete-book-form" >
+    <label for="userId">User Id: </label>
+    <input type="number" id="userId" min="1" max="100">
+    <input type="submit" value="Delete from your Favorite">
+    </form>
+
+  {{else}}
+   <form class = "edit-book-form" >
+  <label for="userId">User Id: </label>
+  <input type="number" id="userId" min="1" max="100">
+  <input type="submit" value="Add to your Favorite">   
+  </form>
+  {{/if}}
+</section>
+<!-- Otherwise, provide a link to login -->
+{{else}}
+<a href="/login">You must login first to view this book</a>
+{{/if}}
+
+<script src="../js/add-fav.js"></script>
+<script src="../js/delete-fav.js"></script>
