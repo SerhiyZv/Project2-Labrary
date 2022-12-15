@@ -88,7 +88,7 @@ router.post('/logout', (req, res) => {
 
 router.delete('/:id', async (req, res) => {
   console.log(req.params.id)
-  // Where is this action method sending the data from the body of the fetch request? Why?
+  
   // It is sending the data to the Model so that one dish can be updated with new data in the database.
   try {
     const userId = await User.destroy(
@@ -100,7 +100,7 @@ router.delete('/:id', async (req, res) => {
       }
     );
     console.log(userId)
-    // If the database is updated successfully, what happens to the updated data below?
+    
     // The updated data (dish) is then sent back to handler that dispatched the fetch request.
     res.status(200).json(userId);
   } catch (err) {

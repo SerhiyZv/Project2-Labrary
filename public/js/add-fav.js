@@ -8,7 +8,7 @@ async function editFormHandler(event) {
     ];
     //console.log(id)
   
-    // What part of our application will handle this 'put' request?
+    
     // The Controller will handle this 'put' request.
   
     const response = await fetch(`/${id}`, {
@@ -21,7 +21,7 @@ async function editFormHandler(event) {
       },
     });
   
-    // What happens if the response is ok?
+    
     // If the response is ok, that means that the dish was updated successfully. 
     if (response.ok) {
       document.location.replace(`/books/${id}`);
